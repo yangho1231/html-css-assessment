@@ -28,6 +28,8 @@ ul {
   transform: translate(-50%,-50%);
   color: white;
   text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+
 
 }
 p {
@@ -40,11 +42,18 @@ font-size: 1.5em;
   font-size: 5em;
 }
 #arrow_down {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  height: 35px;
+	width: 50px;
+	background-color: white;
+  color: gray;
+	border-radius: 50%;
+	padding-top: 15px;
+
+  text-align: center;
 }
 #twitter {
   display:none;
